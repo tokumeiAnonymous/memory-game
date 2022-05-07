@@ -8,7 +8,7 @@ import React, { useState /*, useEffect */} from 'react';
 function App() {
   // characters, and score, best score so far.
   const [score, setScore] = useState(0);
-  const [maxScore, setMaxScore] = useState(0);
+  const [bestScore, setBestScore] = useState(0);
   const [houses, setHouses] = useState(data);
   /*
   useEffect( () => {
@@ -20,7 +20,7 @@ function App() {
     const house = houses.find( element => element.name === data)
 
     if (house.isClicked === true) {
-      if (score > maxScore) setMaxScore(score);
+      if (score > bestScore) setBestScore(score);
       // set all isClicked to false
       houses.forEach(house => house.isClicked = false);
       setScore(0);
@@ -47,7 +47,7 @@ function App() {
   return (
     <div>
       <Header/>
-      <Record current={score} max={maxScore}/>
+      <Record current={score} best={bestScore}/>
       {/* return a list of characters here from the json file */}
       <Houses houses={houses} validate={(e) => validateScore(e)}/>
     </div>

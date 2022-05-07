@@ -1,4 +1,4 @@
-export default function Record({current, max}) {
+export default function Record({current, best}) {
     return (
         <div className="record">
             <div className="instructions">
@@ -6,7 +6,7 @@ export default function Record({current, max}) {
             </div>
             <div className="score">
                 <div className="current">Current Score: {current}</div>
-                <div className="max">Max Score: {max}</div>
+                <div className="best">Best Score: {best}</div>
             </div>
         </div>
     )
