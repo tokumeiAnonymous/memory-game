@@ -1,13 +1,33 @@
 {
   "files": {
     "main.css": "/memory-game/static/css/main.b44c20f9.css",
-    "main.js": "/memory-game/static/js/main.f095bf15.js",
+    "main.js": "/memory-game/static/js/main.99446fa5.js",
+    "static/media/Tyrell.jpg": "/memory-game/static/media/Tyrell.69faf2c3653fd4aa45aa.jpg",
+    "static/media/Martell.jpg": "/memory-game/static/media/Martell.676e9eccd4b0d78239b4.jpg",
+    "static/media/Mormont.jpg": "/memory-game/static/media/Mormont.55125525011f8c6e1223.jpg",
+    "static/media/Clegane.jpg": "/memory-game/static/media/Clegane.a77e7fbd92fda9c07fbd.jpg",
+    "static/media/Bolton.jpg": "/memory-game/static/media/Bolton.129f36487a35cc9db903.jpg",
+    "static/media/Baratheon.jpg": "/memory-game/static/media/Baratheon.1783f889f18c36161068.jpg",
+    "static/media/Lannister.jpg": "/memory-game/static/media/Lannister.57d4d41c4316007ffab2.jpg",
+    "static/media/Arryn.jpg": "/memory-game/static/media/Arryn.3a178b4b9d648100bd9d.jpg",
+    "static/media/Dothraki.jpg": "/memory-game/static/media/Dothraki.d1223031018c22c4cd81.jpg",
+    "static/media/Targaryen.jpg": "/memory-game/static/media/Targaryen.3f1c8a1ee753ee12a072.jpg",
+    "static/media/Seaworth.jpg": "/memory-game/static/media/Seaworth.c71312c29c8a7ffbb5cc.jpg",
+    "static/media/Stark.jpg": "/memory-game/static/media/Stark.a37947d892274779583d.jpg",
+    "static/media/Greyjoy.jpg": "/memory-game/static/media/Greyjoy.4928fcad1405446743c7.jpg",
+    "static/media/Karstark.jpg": "/memory-game/static/media/Karstark.69d43dfc334de70183ec.jpg",
+    "static/media/Tully.jpg": "/memory-game/static/media/Tully.61b26099f2b35ec9a79d.jpg",
+    "static/media/Glover.jpg": "/memory-game/static/media/Glover.bfbd533d6032aafaf0c5.jpg",
+    "static/media/Manderly.jpg": "/memory-game/static/media/Manderly.ac1498314e1a9ee204f0.jpg",
+    "static/media/Nightswatch.jpg": "/memory-game/static/media/Nightswatch.cfc78fb4ed6cc0b296f3.jpg",
+    "static/media/Frey.jpg": "/memory-game/static/media/Frey.641776082841b20b66be.jpg",
+    "static/media/Selmy.jpg": "/memory-game/static/media/Selmy.beba208a2fac961c921f.jpg",
     "index.html": "/memory-game/index.html",
     "main.b44c20f9.css.map": "/memory-game/static/css/main.b44c20f9.css.map",
-    "main.f095bf15.js.map": "/memory-game/static/js/main.f095bf15.js.map"
+    "main.99446fa5.js.map": "/memory-game/static/js/main.99446fa5.js.map"
   },
   "entrypoints": [
     "static/css/main.b44c20f9.css",
-    "static/js/main.f095bf15.js"
+    "static/js/main.99446fa5.js"
   ]
 }
