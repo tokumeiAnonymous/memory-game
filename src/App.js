@@ -3,33 +3,33 @@ import Header from './Components/Header';
 import Record from './Components/Record';
 import data from './Assets/characters.json';
 import Houses from './Components/Houses';
-import React, { useState /*, useEffect */} from 'react';
+import React, { useState } from 'react';
 
 function App() {
   // characters, and score, best score so far.
   const [score, setScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
   const [houses, setHouses] = useState(data);
-  /*
-  useEffect( () => {
-    setHouses(shuffle(houses));
-  })
-  */
+
   function validateScore(e) {
     const data = e.target.getAttribute('data-name');
-    const house = houses.find( element => element.name === data)
+    let newHouses = houses.map( house => house);
+    const house = newHouses.find( element => element.name === data);
 
     if (house.isClicked === true) {
       if (score > bestScore) setBestScore(score);
       // set all isClicked to false
-      houses.forEach(house => house.isClicked = false);
+      newHouses = houses.map(house => {
+        house.isClicked = false;
+        return house;
+      });
       setScore(0);
     }
     else {
       house.isClicked = true;
       setScore(score + 1);
     }
-    setHouses(shuffle(houses));
+    setHouses(shuffle(newHouses));
   }
 
   function shuffle(array) {
@@ -48,7 +48,6 @@ function App() {
     <div>
       <Header/>
       <Record current={score} best={bestScore}/>
-      {/* return a list of characters here from the json file */}
       <Houses houses={houses} validate={(e) => validateScore(e)}/>
     </div>
   );
